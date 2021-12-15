@@ -1,0 +1,31 @@
+@background-color:green;
+.base-button{
+    padding: 5px;
+    font-size: 20px;
+    width: 160px;
+    border-radius: 7px;
+    font-family: cursive;
+    border: 2px solid black;
+    background-color: @background-color;
+
+}
+
+// these buttons are extending css properties of base button
+//and taking individual colors from "colors" store
+.primary-button:extend(.base-button){ 
+    background-color: #colors[sample1];
+    
+}
+.secondary-button:extend(.base-button){
+    background-color: #colors[sample2];
+
+}
+.ternary-button:extend(.base-button){
+    background-color: #colors[sample3];
+
+}
+#colors(){
+    sample1:red;
+    sample2:yellow;
+    sample3:blue;
+}

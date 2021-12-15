@@ -1,0 +1,21 @@
+.base-button,
+.primary-button,
+.secondary-button,
+.ternary-button {
+  padding: 5px;
+  font-size: 20px;
+  width: 160px;
+  border-radius: 7px;
+  font-family: cursive;
+  border: 2px solid black;
+  background-color: green;
+}
+.primary-button {
+  background-color: red;
+}
+.secondary-button {
+  background-color: yellow;
+}
+.ternary-button {
+  background-color: blue;
+}

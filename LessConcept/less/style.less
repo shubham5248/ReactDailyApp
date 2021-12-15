@@ -1,0 +1,39 @@
+@background-color:grey;
+@color:black;
+@base-color:green;
+@primary-color:violet;
+@secondary-color:yellow;
+
+body{
+    background-color: @background-color;
+    color: @color;
+
+}
+.my-padding(@size){
+    padding: @size;
+}
+.base-button{
+    // padding: 10px;
+    .my-padding(20px);
+    font-size: 20px;
+    color: black;
+    background-color: @base-color;
+}
+.primary-button:extend(.base-button){
+    // padding: 10px;
+    // font-size: 20px;
+    // color:black;
+    background-color: #colors[primary] ;
+}
+.secondary-button:extend(.base-button) {
+    background-color: #colors[secondary];
+
+}
+.ternary-button:extend(.base-button){
+    background-color: #colors[ternary];
+}
+#colors(){
+    primary:violet;
+    secondary:yellow;
+    ternary:red;
+}

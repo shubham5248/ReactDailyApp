@@ -1,0 +1,22 @@
+body {
+  background-color: grey;
+  color: black;
+}
+.base-button,
+.primary-button,
+.secondary-button,
+.ternary-button {
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+  background-color: green;
+}
+.primary-button {
+  background-color: violet;
+}
+.secondary-button {
+  background-color: yellow;
+}
+.ternary-button {
+  background-color: red;
+}
