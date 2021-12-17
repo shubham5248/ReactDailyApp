@@ -3,44 +3,45 @@ import './index.css';
 export default class ChangePwd extends Component{
     render(){
         return(
-            <>
-            <b><div className="title-changepwd">Set New Password</div></b><br/>
+<>
+<div className="changepwd">
+<b><div className="title-imps">Set New Password</div></b><br/>
+<form>
+<div class="row g-3 align-items-center">
+<div class="col-auto">
+<label for="inputPassword6" class="col-form-label">Login Pwd :</label>
+</div>
+<div class="col-auto">
+<input type="password" id="inputPassword1" class="form-control" aria-describedby="passwordHelpInline" placeholder="type login password here"/>
+</div></div><br/>
 
-            <div className="container-sm">
-                
-            <div class="row mb-3">
-            <div class="row">
-  <label for="loginpwd" class="col-sm-2 col-form-label col-form-label-lg">Login Pwd :</label>
-  <div class="col-sm-10">
-    <input type="password" class="col-form-label" id="loginpwd" placeholder="type login password here"/>
-  </div></div></div>
+<div class="row g-3 align-items-center">
+<div class="col-auto">
+<label for="inputPassword6" class="col-form-label">Confirm Login Pwd :</label>
+</div>
+<div class="col-auto">
+<input type="password" id="inputPassword2" class="form-control" aria-describedby="passwordHelpInline" placeholder="confirm login password here"/>
+</div></div><br/>
 
-  <div class="row mb-3">
-            <div class="row">
-  <label for="confirmloginpwd" class="col-sm-2 col-form-label col-form-label-lg">Confirm Login Pwd :</label>
-  <div class="col-sm-10">
-    <input type="password" class="col-form-label" id="confirmloginpwd" placeholder="confirm login password here"/>
-  </div></div></div><br/>
+<div class="row g-3 align-items-center">
+<div class="col-auto">
+<label for="inputPassword6" class="col-form-label">Transaction Pwd :</label>
+</div>
+<div class="col-auto">
+<input type="password" id="inputPassword3" class="form-control" aria-describedby="passwordHelpInline" placeholder="type transaction password here"/>
+</div></div><br/>
 
-  <div class="row mb-3">
-            <div class="row">
-  <label for="transpwd" class="col-sm-2 col-form-label col-form-label-lg">Transaction Pwd :</label>
-  <div class="col-sm-10">
-    <input type="password" class="col-form-label" id="transpwd" placeholder="type transaction password here"/>
-  </div></div></div>
-
-  <div class="row mb-3">
-            <div class="row">
-  <label for="confirmtranspwd" class="col-sm-2 col-form-label col-form-label-lg">Confirm Transaction Pwd :</label>
-  <div class="col-sm-10">
-    <input type="password" class="col-form-label" id="confirmtranspwd" placeholder="confirm transaction password here"/>
-  </div></div></div>
-  
-            
-            </div>
-  
-  
-            </>
+<div class="row g-3 align-items-center">
+<div class="col-auto">
+<label for="inputPassword6" class="col-form-label">Confirm Transaction Pwd :</label>
+</div>
+<div class="col-auto">
+<input type="password" id="inputPassword4" class="form-control" aria-describedby="passwordHelpInline" placeholder="confirm transaction password here"/>
+</div></div><br/>
+<div><button type="submit" class="btn btn-success" id="changepwdbtn">Submit</button></div>
+</form>
+</div>
+</>
         )
     }
 }

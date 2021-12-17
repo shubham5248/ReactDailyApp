@@ -11,7 +11,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
 /* CSS for Navbar*/
 .nav nav-pills nav-justified{
   padding-top: 100px;
@@ -53,3 +52,27 @@ code {
   font-size: 20px;
   font-family: cursive;
 }
+.col-form-label{
+  margin-left: 200px;
+}
+/* CSS for ChangePwd */
+#inputPassword1{
+  margin-left: 150px;
+  width: 300px;
+}
+#inputPassword2{
+  margin-left: 90px;
+  width: 300px;
+}
+#inputPassword3{
+  margin-left: 110px;
+  width: 300px;
+}
+#inputPassword4{
+  margin-left: 50px;
+  width: 300px;
+}
+#changepwdbtn{
+  margin-left: 100px;
+}
+
