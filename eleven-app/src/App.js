@@ -15,6 +15,8 @@ import Sasscomponent from "./Sasscomponent";
 import { useState } from "react";
 import ConditionalComponent from "./ConditionalComponent";
 import RadiumDemo from "./RadiumDemo";
+import FlowDemo from "./FlowDemo";
+import OldClassComponent from "./OldClassComponent";
 
 
 function App() {
@@ -27,7 +29,9 @@ function App() {
       {/* <button onClick={onClickHandler}>Show Component</button>
       {showComponent && <ConditionalComponent/>} */}
       {/* <Sasscomponent/> */}
-      <RadiumDemo/>
+      {/* <RadiumDemo/> */}
+      {/* <FlowDemo/> */}
+      <OldClassComponent name={"aniket"} age={24}/>
       {/* <Reconciliation1 /> */}
       {/* <Reconciliation /> */}
       {/* <DemoComponent/> */}
