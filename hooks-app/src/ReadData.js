@@ -37,7 +37,7 @@ export default ()=>{
                     <td>{payee.nickname}</td>
                     <td>{payee.accountNumber}</td>
                    
-                  </tr>//BENEFICIARY_ACC_NO  BENEFICIARY_NAME
+                  </tr>
                     )
                 })}
             </tbody>
